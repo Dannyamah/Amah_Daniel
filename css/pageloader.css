@@ -17,7 +17,7 @@ html file
     height: 100%;
     top:0;
     left:0;
-    background: #fff;
+    background: black;
     display: block;  
     
 }
@@ -26,10 +26,10 @@ html file
 }
 .page-loader,
 .page-loader.visible{
-    -webkit-transition: 0.6s;
-    -ms-transition: 0.6s;
-    -moz-transition: 0.6s;
-    transition: 0.6s;
+    -webkit-transition: 3s;
+    -ms-transition: 3s;
+    -moz-transition: 3s;
+    transition: 3s;
     opacity: 1;
     visibility: visible;    
 }
